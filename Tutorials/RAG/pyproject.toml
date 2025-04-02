@@ -1,0 +1,11 @@
+[project]
+name = "rag-tutorial"
+version = "0.1.0"
+description = "RAG Tutorial Project"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain==0.3.22",
+    "chromadb==0.6.3",
+    "sentence-transformers==4.0.1",
+    "python-dotenv==1.0.1",
+]
